@@ -13,7 +13,7 @@ from telegram.ext import Application,CommandHandler, MessageHandler, filters, Co
 from telegram import ReplyKeyboardMarkup, ReplyKeyboardRemove, Update
 # Define Options
 CHOOSEUSER,ADMINMENUE,CLIENTMENUE,CHECKOUT,PRODUCT,CLIENTMENUESELECTION,PRODUCTCATEGORY,CART,CONFIRMATION,ADMINMENUESELECTION = range(10)
-CONNECTION_STRING = "mongodb+srv://koushik:koushik2003@cluster0.zvmhh43.mongodb.net/?retryWrites=true&w=majority"
+CONNECTION_STRING = "mongodb+srv://-------"
 
     # Create a connection using MongoClient. You can import MongoClient or use pymongo.MongoClient
 client = MongoClient(CONNECTION_STRING)
@@ -23,7 +23,7 @@ dbname = client['Bot']
 
 print('Starting up bot...')
 
-TOKEN: Final = '5882226477:AAGq_kbQseCTqITZTwq5elcVkpa-XHoXNTA'
+TOKEN: Final = 'YOUR BOT TOKEN'
 BOT_USERNAME: Final = '@super_general_store_bot'
 usersName=''
 
